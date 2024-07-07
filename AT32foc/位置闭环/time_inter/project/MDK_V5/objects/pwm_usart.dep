@@ -1,0 +1,280 @@
+Dependencies for Project 'pwm', Target 'usart': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\src\main.c)(0x667A6B81)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\inc\at32f403a_407_wk_config.h)(0x667A6B81)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+I (..\..\Hardware\usart_1.h)(0x667A3485)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\Hardware\delay.h)(0x667A3838)
+F (..\src\at32f403a_407_wk_config.c)(0x667A6B80)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_wk_config.o --omf_browse .\objects\at32f403a_407_wk_config.crf --depend .\objects\at32f403a_407_wk_config.d)
+I (..\inc\at32f403a_407_wk_config.h)(0x667A6B81)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\src\at32f403a_407_int.c)(0x667A6B81)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_int.o --omf_browse .\objects\at32f403a_407_int.crf --depend .\objects\at32f403a_407_int.d)
+I (..\inc\at32f403a_407_int.h)(0x667A6B81)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_crm.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_crm.o --omf_browse .\objects\at32f403a_407_crm.crf --depend .\objects\at32f403a_407_crm.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_debug.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_debug.o --omf_browse .\objects\at32f403a_407_debug.crf --depend .\objects\at32f403a_407_debug.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_flash.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_flash.o --omf_browse .\objects\at32f403a_407_flash.crf --depend .\objects\at32f403a_407_flash.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_gpio.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_gpio.o --omf_browse .\objects\at32f403a_407_gpio.crf --depend .\objects\at32f403a_407_gpio.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_misc.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_misc.o --omf_browse .\objects\at32f403a_407_misc.crf --depend .\objects\at32f403a_407_misc.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_pwc.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_pwc.o --omf_browse .\objects\at32f403a_407_pwc.crf --depend .\objects\at32f403a_407_pwc.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_usart.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_usart.o --omf_browse .\objects\at32f403a_407_usart.crf --depend .\objects\at32f403a_407_usart.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\libraries\drivers\src\at32f403a_407_tmr.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\at32f403a_407_tmr.o --omf_browse .\objects\at32f403a_407_tmr.crf --depend .\objects\at32f403a_407_tmr.d)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (.\startup_at32f403a_407.s)(0x667A5B1F)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "AT32A403ACGT7 SETA 1"--list .\listings\startup_at32f403a_407.lst --xref -o .\objects\startup_at32f403a_407.o --depend .\objects\startup_at32f403a_407.d)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.c)(0x6677082D)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\system_at32f403a_407.o --omf_browse .\objects\system_at32f403a_407.crf --depend .\objects\system_at32f403a_407.d)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+F (..\..\Hardware\usart_1.c)(0x667A3357)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\usart_1.o --omf_browse .\objects\usart_1.crf --depend .\objects\usart_1.d)
+I (..\..\Hardware\usart_1.h)(0x667A3485)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdio.h)(0x60252374)
+F (..\..\Hardware\usart_1.h)(0x667A3485)()
+F (..\..\Hardware\delay.h)(0x667A3838)()
+F (..\..\Hardware\delay.c)(0x667A3764)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ..\..\Hardware-ID:\downloads\MDK\Packs\ArteryTek\AT32A403A_DFP\2.0.5\Device\Include-D__UVISION_VERSION="536" -DAT32A403ACGT7 -DAT32F403ACGT7 -DUSE_STDPERIPH_DRIVER -DAT_START_F403A_V1-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\..\Hardware\delay.h)(0x667A3838)
+I (..\..\libraries\cmsis\cm4\device_support\at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x6677082D)
+I (D:\downloads\MDK\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x6677082D)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f403a_407.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_def.h)(0x6677082D)
+I (..\inc\at32f403a_407_conf.h)(0x667A6B81)
+I (..\..\libraries\drivers\inc\at32f403a_407_crm.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_debug.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_flash.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_gpio.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_misc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_pwc.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_tmr.h)(0x6677082D)
+I (..\..\libraries\drivers\inc\at32f403a_407_usart.h)(0x6677082D)
